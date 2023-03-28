@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To be able to test the app:
 
 1) install node modules: npm install
-2) replace <<api-key>> with real one from the description of the challenge in App.jsx
+2) replace apiKey with real one from the description of the challenge in App.jsx
 3) run the app: npm start
 4) open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
@@ -11,7 +11,7 @@ setup:
 1) git clone https://github.com/functionalReactiveFan/3pc-challenge.git
 2) cd 3pc-challenge
 3) npm i
-4) replace <<api-key>> with real one from the description of the challenge in App.jsx 
+4) replace apiKey with real one from the description of the challenge in App.jsx 
 5) npm start
 6) open http://localhost:3000
 

@@ -9,9 +9,11 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [currentMovie, setCurrentMovie] = useState(null);
 
+  const apiKey = 'please type the real api key from the description of the challenge ending on 2070';
+
   const handleSubmit = e => {
     e.preventDefault();
-    fetch(`https://api.themoviedb.org/3/search/movie?api_key=428e47f069133d75630882889a482070&query=${searchTerm}`)
+    fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchTerm}`)
       .then(res => res.json())
       .then(({ results }) => setMovies(results && results.sort((movieA, movieB) => movieB.popularity - movieA.popularity)));
   };
